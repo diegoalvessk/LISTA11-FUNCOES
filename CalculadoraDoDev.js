@@ -26,9 +26,11 @@ numeroB = parseInt(prompt("Informe o 2° número:"))
 
 var soma = Somar(numeroA, numeroB)
 var sub  = Sub(numeroA, numeroB)
+var multi = Multi(numeroA, numeroB)
 
 alert("A soma dos dois número é: " + soma)
 alert("A subtração dos dois número é: " + sub)
+alert("A multiplicação dos dois número é: " + multi)
 
 function Somar(num1, num2){
     var soma = (num1 + num2)
@@ -38,5 +40,10 @@ function Somar(num1, num2){
 function Sub(num1, num2){
     var sub = (num1 - num2)
     return sub
+}
+
+function Multi(num1, num2){
+    var multi = (num1 * num2)
+    return multi
 }
 
