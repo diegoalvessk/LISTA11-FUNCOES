@@ -24,4 +24,12 @@ var numeroB = 0
 numeroA = parseInt(prompt("Informe o 1° número:"))
 numeroB = parseInt(prompt("Informe o 2° número:"))
 
+var soma = Somar(numeroA, numeroB)
+
+alert("A soma dos dois número é: " + soma)
+
+function Somar(num1, num2){
+    var soma = (num1 + num2)
+    return soma
+}
 
